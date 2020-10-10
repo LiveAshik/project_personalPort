@@ -1,0 +1,176 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* main-head */
+.main-head {
+  background-image: linear-gradient(45deg, #826b7b, #31697d, #826b7b);
+  position: relative;
+  height: 100vh;
+}
+.brand {
+  font-family: "Black Jack";
+  font-size: 3rem;
+}
+.hero-box {
+  margin: 1rem 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-text span {
+  display: inline-block;
+  font-family: "Raleway Heavy" Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: #ffffff;
+  padding: 1rem 0;
+  letter-spacing: 1rem;
+  border-top: 4px solid #98b4be;
+  border-bottom: 4px solid #98b4be;
+}
+.hero-inf {
+  font-size: 1.9rem;
+  color: #98b4be;
+}
+.btn {
+  background-color: #e20101 !important;
+  padding: 0.4rem 5rem !important;
+  color: #fff !important;
+}
+.btn:hover {
+  background-color: red !important;
+}
+.hire img {
+  width: 100%;
+  margin-bottom: -3rem;
+}
+.hire h4 {
+  margin-top: 15rem;
+}
+.my-exp {
+  color: #737373;
+}
+.hire p {
+  color: #737373;
+}
+
+/* working */
+.working {
+  background-color: #f6f6f6;
+  padding: 6rem 0;
+}
+.process-box {
+  padding: 4rem 2rem;
+  color: #fff;
+}
+.process-box i {
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+.process-box h4 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.process-box1 {
+  background-color: #10c6fc;
+}
+.process-box2 {
+  background-color: #835aeb;
+}
+.process-box3 {
+  background-color: #002453;
+}
+.process-box4 {
+  background-color: #ff2b4a;
+}
+
+/* experience */
+.experience {
+  background-image: linear-gradient(45deg, #826b7b, #31697d, #826b7b);
+  padding: 6rem 0;
+}
+.exp-box {
+  padding: 3rem;
+  color: #fff;
+}
+.exp-box1 {
+  background-image: linear-gradient(45deg, #6c637b, #4f637c);
+}
+.exp-box2 {
+  background-image: linear-gradient(45deg, #4f637c, #6c637b);
+}
+.exp-box h5 {
+  color: #d7d9de;
+  font-size: 1rem;
+}
+.exp-box p {
+  color: #bdbfd8;
+}
+
+/* latest-work */
+.latest-work-box {
+  padding: 4rem 2rem;
+  color: #fff;
+  height: 10rem;
+  border: 1px solid #d4d4d4;
+}
+.latest-work-box img {
+  opacity: 70%;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s, opacity 0.5s;
+  transform: scale(1);
+}
+.latest-work-box img:hover {
+  opacity: 100%;
+  transform: scale(1.02);
+}
+
+/* signeture */
+.signeture {
+  background-color: #64cbc0;
+  padding: 14rem 0;
+}
+
+/* form */
+.form-sect {
+  padding: 8rem 0;
+  background-image: linear-gradient(45deg, #6c637b, #4f637c, #6c637b);
+}
+.main-form {
+  background-image: linear-gradient(45deg, #6c637b, #4f637c);
+  padding: 2rem 2rem 5rem;
+}
+.form-details {
+  background-image: linear-gradient(45deg, #6c637b, #4f637c);
+  padding: 2rem;
+  margin-bottom: 3.7rem;
+  color: #d4d4d4;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: transparent;
+  border: 1px solid #d4d4d4;
+  color: #d4d4d4;
+}
+
+/* footer */
+footer {
+  background-color: #222222;
+  padding: 4rem 0;
+}
+.social-icon {
+  color: rgb(214, 214, 214);
+  transition: 0.2s ease;
+}
+.social-icon:hover {
+  color: red;
+}
